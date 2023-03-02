@@ -1,0 +1,22 @@
+{
+  "name": "azion-sample-upstash",
+  "type": "javascript",
+  "env": "production",
+  "function": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "file": "./dist/main.js",
+    "args": "./azion/args.json"
+  },
+  "application": {
+    "id": 0,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  }
+}
